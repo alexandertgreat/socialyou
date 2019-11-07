@@ -24,6 +24,8 @@ Students can inscribe for 4 courses, the default selected course will be "Javasc
 
 The result is live on www.testsocialyou.com
 
+A problem that arises now is that students can inscribe for the same course more than once. This could be solved by checking if a student already inscribed for a course, the only problem is that some people have the same first and last name. So we need a student id in order to distinguish between the different students.
+
 ---------------------------------------------------------------------------------------------------------------------
 
 3) JavaScript test
