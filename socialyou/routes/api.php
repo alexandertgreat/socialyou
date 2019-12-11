@@ -19,3 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/addmovie/{title}/{releaseYear}', 'MoviesController@add_movie');
 Route::get('/removemovie/{title}', 'MoviesController@remove_movie');
+
+Route::post('/addLog', 'LogController@add_log');
